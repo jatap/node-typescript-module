@@ -5,12 +5,12 @@
   "license": "MIT",
   "repository": "",
   "author": {
-    "name": "",
-    "email": "",
-    "url": ""
+    "name": "Julio Antúnez Tarín",
+    "email": "julio.antunez.tarin@gmail.com",
+    "url": "https://github.com/jatap"
   },
   "keywords": [
-    ""
+    "typescript"
   ],
   "files": [
     "lib"
