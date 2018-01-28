@@ -28,6 +28,7 @@
     "prebuild": "npm run clean && npm run format && npm run lint && echo Using TypeScript && tsc --version",
     "build": "tsc --pretty",
     "test": "nyc mocha",
+    "test:debug": "nyc mocha --inspect-brk",
     "test:watch": "nyc mocha --watch --watch-extensions ts || true",
     "test:coverage": "nyc check-coverage || true",
     "test:coverage:open": "open reports/index.html",
