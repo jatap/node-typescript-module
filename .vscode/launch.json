@@ -20,15 +20,36 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug test",
-      "program": "${workspaceRoot}/node_modules/jest/bin/jest.js",
+      "name": "Debug tests",
+      "program": "${workspaceRoot}/node_modules/mocha/bin/_mocha",
+      "stopOnEntry": false,
+      "sourceMaps": true,
       "args": [
-        "--findRelatedTests",
-        "${relativeFile}",
-        "--env",
-        "jest-environment-node-debug"
+        "test/**/*.ts",
+        "--no-timeouts"
       ],
-      "cwd": "${workspaceRoot}"
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": null,
+      "env": {
+        "NODE_ENV": "testing"
+      }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug test",
+      "program": "${workspaceRoot}/node_modules/mocha/bin/_mocha",
+      "stopOnEntry": false,
+      "sourceMaps": true,
+      "args": [
+        "${file}",
+        "--no-timeouts"
+      ],
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": null,
+      "env": {
+        "NODE_ENV": "testing"
+      }
     }
   ]
 }
