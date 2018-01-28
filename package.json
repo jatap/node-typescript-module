@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "sample NodeJS TS module",
   "license": "MIT",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jatap/node-typescript-module.git"
+  },
   "author": {
     "name": "Julio Antúnez Tarín",
     "email": "julio.antunez.tarin@gmail.com",
