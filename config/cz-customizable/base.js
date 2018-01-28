@@ -17,12 +17,6 @@ module.exports = {
   ],
 
   scopes: [
-    // Adding missing unit tests or correcting existing ones
-    {name: 'unitTest'},
-    // Adding missing UAT tests or correcting existing ones
-    {name: 'uatTest'},
-    // Adding missing E2E tests or correcting existing ones
-    {name: 'e2eTest'},
     // Application specifics
     {name: 'core'}
   ],
@@ -31,17 +25,15 @@ module.exports = {
   scopeOverrides: {
     feat: [
       {name: 'config'},
-      {name: 'style'},
-      {name: 'unitTest'},
-      {name: 'uatTest'},
-      {name: 'e2eTest'}
+      {name: 'package.json'}
     ],
     fix: [
       {name: 'config'},
-      {name: 'style'},
-      {name: 'unitTest'},
-      {name: 'uatTest'},
-      {name: 'e2eTest'}
+      {name: 'package.json'}
+    ],
+    perf: [
+      {name: 'config'},
+      {name: 'package.json'}
     ]
   },
 
