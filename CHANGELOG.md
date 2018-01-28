@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/jatap/node-typescript-module/compare/1.0.0...1.1.0) (2018-01-28)
+
+
+### Bug Fixes
+
+* **config:** update vscode config files ([e12c079](https://github.com/jatap/node-typescript-module/commit/e12c079))
+
+
+### Features
+
+* **package.json:** add test debug npm script ([481692c](https://github.com/jatap/node-typescript-module/commit/481692c))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/jatap/node-typescript-module/compare/0.1.0...1.0.0) (2018-01-28)
 
