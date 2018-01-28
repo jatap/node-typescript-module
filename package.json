@@ -20,7 +20,7 @@
   "scripts": {
     "clean": "rimraf lib && rimraf coverage",
     "format": "prettier --write \"{src,__tests__}/**/*.ts\" --single-quote --trailing-comma es5",
-    "lint": "tslint --force --format verbose \"src/**/*.ts\"",
+    "lint": "tslint --force --format verbose 'src/**/*.ts' 'test/**/*.spec.ts'",
     "prepare": "npm run build",
     "prebuild": "npm run clean && npm run format && npm run lint && echo Using TypeScript && tsc --version",
     "build": "tsc --pretty",
@@ -42,6 +42,7 @@
     "commitizen": "^2.9.6",
     "coveralls": "^2.0.0",
     "cz-customizable": "^5.2.0",
+    "husky": "^0.15.0-rc.3",
     "mocha": "^5.0.0",
     "nyc": "^11.4.1",
     "prettier": "^1.5.2",
