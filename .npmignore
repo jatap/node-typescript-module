@@ -1,6 +1,6 @@
 # gitignore
 
-coverage/
+reports/
 node_modules/
 npm-debug.log*
 yarn-debug.log*
@@ -12,5 +12,5 @@ lib_test
 # npmignore
 
 src/
-__tests__/
+tests/
 .vscode/
